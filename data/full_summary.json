@@ -1,0 +1,18 @@
+{
+  "source": "Kaggle nicapotato/womens-ecommerce-clothing-reviews (CC0)",
+  "n_original_rows": 23486,
+  "n_clean_unique_reviews": 22626,
+  "n_lower_rating": 5192,
+  "lower_rating_share": 0.22947052063997173,
+  "mean_rating": 4.1832,
+  "rating_distribution": {
+    "1": 821,
+    "2": 1548,
+    "3": 2823,
+    "4": 4906,
+    "5": 12528
+  },
+  "ai_diagnostic_sample_size": 200,
+  "sampling": "100 reviews rating<=3 and 100 reviews rating>=4 (not representative)",
+  "seed": 20261019
+}

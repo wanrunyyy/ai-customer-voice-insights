@@ -1,0 +1,36 @@
+# Local Python and editor files (never upload)
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# Personal settings, API keys, and credentials
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Original dataset and intermediate working files
+# Original Kaggle CSV can be downloaded by readers independently.
+data/raw/*
+!data/raw/.gitkeep
+data/batches/
+data/ai_input.csv
+data/analysis_base.csv
+data/ai_labels.csv
+
+# Keep these three SMALL derived files public so Streamlit runs immediately:
+#   data/full_summary.json
+#   data/enriched_reviews.csv
+#   data/manual_check.csv
+# Do not add them to this ignore list.
+
+# Local backups and temporary output
+app_backup.py
+app_old.py
+*.log
+.tmp/
